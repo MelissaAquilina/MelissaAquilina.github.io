@@ -1,0 +1,162 @@
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#CF5C36;
+}
+
+body{
+    background-color: #81B29A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+
+.banner-row{
+    background-color: #CF5C36;
+}
+
+.nav-row{
+    background-color: #204E4A;
+    height:6rem;
+}
+.logo {
+    display: block;
+    height: 15rem;
+    margin: auto;
+}
+
+
+.navbar-nav{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    font-size: 45px;
+    padding-left: -5px;
+}
+
+h1{
+    background-color:#CF5C36;
+    border-color: black;
+    text-align: center;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    border-style: solid;    
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.Title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-align:center;
+    margin-top: 3rem;
+}
+
+p{
+    text-align:center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.p-1{
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 35rem;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.container-1{
+    background-color: #ffffff;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 2rem;
+    border-style: solid;
+}
+
+.container-2{
+    background-color: #204E4A;
+    width: 100%;
+}
+
+form{
+    background-color: #F1EB90;
+    border-style: solid;
+    margin: 3rem;
+}
+
+
+h3{
+    font-size: 3rem;
+    font-style: italic;
+    font-family:serif bold;
+    padding-bottom: 1rem;
+}
+
+label{
+    font-size: 2rem;
+    display:flex;
+    font-style: italic;
+    font-weight: 600;
+    width: 100%
+}
+
+.row input{
+    background-color: #204E4A;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    padding: .8rem;
+    display: block;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+hr{
+    border-color: black;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+button{
+    background-color: #CF5C36;
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 50%;
+    display: block;
+}
+
+footer{
+    background-color: #204E4A;
+    color:#F2F4F3;
+    font-size:2rem;
+    margin-top: 100%;
+    padding:1.11rem 0;
+  }
+
+
+
+
+
+
+
