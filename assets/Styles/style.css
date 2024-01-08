@@ -119,6 +119,13 @@ form{
     margin-right: 200px;
 }
 
+.box2{
+    background-color: #204E4A;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
 label{
     font-size: 2rem;
     display:flex;
@@ -161,7 +168,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    margin-left: 80px;
+    margin-left: 250px;
     margin-top: 50px;
   }
 
@@ -171,7 +178,42 @@ button{
     border: 1px solid #000000;
 }
 
+.gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 400px;
+    margin-top: 50px;
+  }
 
+  .gallery1 img{
+    width: auto;
+    height: 300px;
+    border: 1px solid #000000;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.name-box {
+    position: absolute;
+    width: 100%;
+    background-color:#F1EB90;
+    font: 100px;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
 footer{
     background-color: #204E4A;
     color:#F2F4F3;
