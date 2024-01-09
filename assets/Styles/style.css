@@ -13,6 +13,20 @@ body{
     line-height: 1.5;
 }
 
+hr{
+    border-color: black;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+button{
+    background-color: #CF5C36;
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 50%;
+    display: block;
+}
 
 .banner-row{
     background-color: #CF5C36;
@@ -27,7 +41,6 @@ body{
     height: 15rem;
     margin: auto;
 }
-
 
 .navbar-nav{
     display: flex;
@@ -46,7 +59,8 @@ body{
     border-radius: 2rem;
     margin-top: 2rem;
     font-size: 3rem;
-    border-style: solid;   
+    border-style: solid;
+    width: 50%;   
 }
 
 .heading1{
@@ -74,6 +88,11 @@ h3{
     margin-top: 3rem;
 }
 
+.title-1{
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+
 p{
     text-align:center;
     margin-left: 4rem;
@@ -86,8 +105,15 @@ p{
 .paragraph-1{
     font-style: italic;
     font-size: 2rem;
-    margin-left: 35rem;
     text-align: center;
+}
+
+.paragraph-2{
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .container{
@@ -98,7 +124,9 @@ p{
     background-color: #ffffff;
     margin-left: 6rem;
     margin-right: 6rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding-left: 22px;
+    padding-right: 22px;
     border-style: solid;
 }
 
@@ -149,21 +177,6 @@ textarea{
     background-color: #204E4A;
 }
 
-hr{
-    border-color: black;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-}
-
-button{
-    background-color: #CF5C36;
-    border-radius: 2rem;
-    font-size: 2rem;
-    padding: 1rem;
-    width: 50%;
-    display: block;
-}
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +185,7 @@ button{
     margin-top: 50px;
   }
 
-  .gallery img{
+.gallery img{
     width: auto;
     height: 300px;
     border: 1px solid #000000;
@@ -189,13 +202,14 @@ button{
   .gallery1 img{
     width: auto;
     height: 300px;
-    border: 1px solid #000000;
+    border: 1px solid hsl(0, 0%, 0%);
 }
 
 .image-container {
     position: relative;
     width: 300px;
     margin-left: 100px;
+    display: flex;
 }
 
 .image-container img {
@@ -205,22 +219,33 @@ button{
 }
 
 .name-box {
-    position: absolute;
+    position:relative;
     width: 100%;
     background-color:#F1EB90;
-    font: 100px;
-    color: black;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     box-sizing: border-box;
+    font-size: x-large;
+    display: flex;
 }
+
+.bg{
+    width: 100%;  
+    height: 300px;
+    overflow: hidden;
+}
+
+.bg img{
+    width:100%;
+}
+
 footer{
     background-color: #204E4A;
     color:#F2F4F3;
     font-size:2rem;
-    margin-top: 100%;
+    margin-top: 10%;
     padding:1.11rem 0;
-  }
+}
 
 
 
