@@ -117,6 +117,14 @@ h3{
     color: black;
 }
 
+.title-2{
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 92px;
+    color: black;
+}
+
 .box-name{
     color: black;
     background-color:#F1EB90;
